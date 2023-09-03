@@ -12,6 +12,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document("sequence")
 public class Sequence {
     @Id
-    private int id;
+    private String id;
     private int sequence;
 }
